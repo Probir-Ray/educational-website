@@ -5,6 +5,9 @@ import Header from './components/Header/Header';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Home from './components/Home/Home';
 import Footer from './components/Footer/Footer';
+import About from './components/About/About';
+import Service from './components/Service/Service';
+import Course from './components/Course/Course';
 
 function App() {
   return (
@@ -17,6 +20,15 @@ function App() {
           </Route>
           <Route exact path='/'>
             <Home></Home>
+          </Route>
+          <Route path='/about'>
+            <About></About>
+          </Route>
+          <Route path='/service'>
+            <Service></Service>
+          </Route>
+          <Route path='/course'>
+            <Course></Course>
           </Route>
         </Switch>
         <Footer></Footer>
