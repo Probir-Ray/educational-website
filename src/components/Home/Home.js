@@ -1,26 +1,38 @@
-import Button from '@restart/ui/esm/Button';
-import React from 'react';
-import { Col, Container, Row } from 'react-bootstrap';
+
+import React, { useEffect, useState } from 'react';
+import { Container, Row } from 'react-bootstrap';
+import Hero from '../Hero/Hero';
+import Service from '../Service/Service';
 
 const Home = () => {
+    // Declare a state
+    const [services, setServices] = useState([]);
+
+    useEffect(() => {
+        fetch('./service.json')
+        .then(res => res.json())
+        .then(data => setServices(data));
+    }, [])
+
+
     return (
         <div className='py-4'>
             <Container>
-                <Row className='py-4'>
-                    <Col md={6}>
-                        <h3>Learning Language</h3>
-                        <br/>
-                        <p>Learning a new language involves listening, speaking, reading, writing, sometimes even a new alphabet and writing format.</p>
-                        <p>Instead, what you need is a balanced study plan: a mix of study activities that target both spoken and written language, and gives attention to all three key principles.</p>
-                        <p>Take courses from best instructors and universities. Courses include recorded auto-graded assignments, video lectures, and community discussion forums. When you complete a course, you’ll be eligible to receive a shareable electronic Course Certificate for a small fee.</p>
-                        <button className="btn btn-primary">Learn More</button>
-                    </Col>
-                    <Col md={6}>
-                        <img className='img-fluid' src="https://images.pexels.com/photos/6207365/pexels-photo-6207365.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260" alt="" />
-                    </Col>
-                </Row>
+                <Hero></Hero>
             </Container>
-            
+
+            <Container fluid>
+                <div className="card-container mt-4 py-4">
+                    <h3 className="text-center fw-bold">Services</h3>
+                    <Row className='py-4'>
+                        {
+                        services.map(service => <Service key={service.id} service={service}></Service>)
+                        }
+                    </Row>
+                    
+                </div>
+            </Container>
+
         </div>
     );
 };

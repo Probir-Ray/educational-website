@@ -1,10 +1,24 @@
 import React from 'react';
+import { Card, Col, ListGroup, ListGroupItem } from 'react-bootstrap';
 
-const Service = () => {
+const Service = (props) => {
+    // Destructuring object.
+    const {serviceName, desc, img, duration, certificate } = props.service;
     return (
-        <div className='container py-4'>
-            <h2>Service</h2>
-        </div>
+            
+        <Col md={3}>
+            <Card style={{ width: '19rem' }}>
+                <Card.Img variant="top" src={img} />
+                <Card.Body>
+                    <Card.Title>{serviceName}</Card.Title>
+                    <Card.Text>{desc.slice(0, 120)}</Card.Text>
+                </Card.Body>
+                <ListGroup className="list-group-flush">
+                    <ListGroupItem>Course duration: {duration}</ListGroupItem>
+                    <ListGroupItem>Certificate: {certificate ? 'Yes' : 'No'}</ListGroupItem>
+                </ListGroup>                
+            </Card>
+        </Col>
     );
 };
 
