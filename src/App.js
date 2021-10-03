@@ -8,6 +8,7 @@ import Footer from './components/Footer/Footer';
 import About from './components/About/About';
 import Service from './components/Service/Service';
 import Course from './components/Course/Course';
+import NotFound from './components/NotFound/NotFound';
 
 function App() {
   return (
@@ -29,6 +30,9 @@ function App() {
           </Route>
           <Route path='/course'>
             <Course></Course>
+          </Route>
+          <Route path='*'>
+            <NotFound></NotFound>
           </Route>
         </Switch>
         <Footer></Footer>
