@@ -9,7 +9,7 @@ const Header = () => {
     }
     return (
         <div>
-            <Navbar bg="info" expand="lg" variant="light">
+            <Navbar bg="primary" expand="lg" variant="light">
             <Container>
                 <Navbar.Brand><NavLink className='text-white text-decoration-none' to='/'>Languagezen</NavLink></Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
