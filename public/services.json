@@ -30,5 +30,37 @@
       "img":"https://i.imgur.com/A7PUbBm.jpg",
       "duration":"3 Hour 50 minutes",
       "Certificate":true
+   },
+   {
+      "id":116,
+      "serviceName":"China Language",
+      "desc":"The official language of China is the Mandarin, which is the very name of 'Hanyu' or 'Putonghua', belonging to Sino-Tibetan.",
+      "img":"https://i.imgur.com/EO3saiY.jpg",
+      "duration":"6 Hour 15 minutes",
+      "Certificate":false
+   },
+   {
+      "id":117,
+      "serviceName":"French Language",
+      "desc":"French is a Romance language of the Indo-European family. It descended from the Vulgar Latin of the Roman Empire, as did all Romance languages",
+      "img":"https://i.imgur.com/ns5yV8S.png",
+      "duration":"5 Hour 02 minutes",
+      "Certificate":true
+   },
+   {
+      "id":118,
+      "serviceName":"Spanish",
+      "desc":"In Spain and in some other parts of the Spanish-speaking world, Spanish is called not only español but also castellano (Castilian), the language from the kingdom of Castile",
+      "img":"https://i.imgur.com/1hxaurk.jpg",
+      "duration":"4 Hour 0 minutes",
+      "Certificate":false
+   },
+   {
+      "id":119,
+      "serviceName":"Russing Language",
+      "desc":"Russian is the official and the predominantly spoken language in Russia. It is the most spoken native language in Europe, the most geographically widespread language of Eurasia,",
+      "img":"https://i.imgur.com/kuRf2Ct.png",
+      "duration":"3 Hour 30 minutes",
+      "Certificate":true
    }
 ]

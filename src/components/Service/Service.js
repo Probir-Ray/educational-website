@@ -7,7 +7,7 @@ const Service = (props) => {
     return (
             
         <Col md={3}>
-            <Card style={{ width: '19rem' }}>
+            <Card style={{ width: '19rem', marginBottom: '30px' }}>
                 <Card.Img variant="top" src={img} />
                 <Card.Body>
                     <Card.Title>{serviceName}</Card.Title>
@@ -15,8 +15,9 @@ const Service = (props) => {
                 </Card.Body>
                 <ListGroup className="list-group-flush">
                     <ListGroupItem>Course duration: {duration}</ListGroupItem>
-                    <ListGroupItem>Certificate: {certificate ? 'Yes' : 'No'}</ListGroupItem>
-                </ListGroup>                
+                    <ListGroupItem>Certificate: {(certificate === true) ? 'Yes' : 'No'}</ListGroupItem>
+                </ListGroup>
+                
             </Card>
         </Col>
     );
