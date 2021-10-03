@@ -5,7 +5,8 @@
       "desc":"Business communication is the process of sharing information between people within and outside a company. Effective business communication is how employees and management interact to reach organizational goals.",
       "img":"https://i.imgur.com/Paivpfx.jpg",
       "duration":"3 Hour 7 minutes",
-      "Certificate":true
+      "Certificate":"Yes",
+      "price": "$ 400"
    },
    {
       "id":112,
@@ -13,7 +14,8 @@
       "desc":"This course is for beginner students who are familiar with the Korean alphabet, Hangeul. Through this course students will learn the skills essential for daily interactions with Koreans while living in Korea.",
       "img":"https://i.imgur.com/oeoG7QT.jpg",
       "duration":"4 Hour 5 minutes",
-      "Certificate":true
+      "Certificate":"No",
+      "price": "$ 350"
    },
    {
       "id":113,
@@ -21,7 +23,8 @@
       "desc":"Learn German in just 5 minutes a day with our game-like lessons. Whether you’re a beginner starting with the basics or looking to practice your reading, writing, and speaking,",
       "img":"https://i.imgur.com/65bWHA6.png",
       "duration":"2 Hour 32 minutes",
-      "Certificate":true
+      "Certificate":"No",
+      "price": "$ 450"
    },
    {
       "id":115,
@@ -29,7 +32,8 @@
       "desc":"The Japan Foundation works to create and enhance Japanese-language education environments around the world to give more people opportunities to study Japanese.",
       "img":"https://i.imgur.com/A7PUbBm.jpg",
       "duration":"3 Hour 50 minutes",
-      "Certificate":true
+      "Certificate":"Yes",
+      "price": "$ 499"
    },
    {
       "id":116,
@@ -37,7 +41,8 @@
       "desc":"The official language of China is the Mandarin, which is the very name of 'Hanyu' or 'Putonghua', belonging to Sino-Tibetan.",
       "img":"https://i.imgur.com/EO3saiY.jpg",
       "duration":"6 Hour 15 minutes",
-      "Certificate":false
+      "Certificate":"No",
+      "price": "$ 399"
    },
    {
       "id":117,
@@ -45,7 +50,8 @@
       "desc":"French is a Romance language of the Indo-European family. It descended from the Vulgar Latin of the Roman Empire, as did all Romance languages",
       "img":"https://i.imgur.com/ns5yV8S.png",
       "duration":"5 Hour 02 minutes",
-      "Certificate":true
+      "Certificate":"Yes",
+      "price": "$ 249"
    },
    {
       "id":118,
@@ -53,7 +59,8 @@
       "desc":"In Spain and in some other parts of the Spanish-speaking world, Spanish is called not only español but also castellano (Castilian), the language from the kingdom of Castile",
       "img":"https://i.imgur.com/1hxaurk.jpg",
       "duration":"4 Hour 0 minutes",
-      "Certificate":false
+      "Certificate":"Yes",
+      "price": "$ 350"
    },
    {
       "id":119,
@@ -61,6 +68,7 @@
       "desc":"Russian is the official and the predominantly spoken language in Russia. It is the most spoken native language in Europe, the most geographically widespread language of Eurasia,",
       "img":"https://i.imgur.com/kuRf2Ct.png",
       "duration":"3 Hour 30 minutes",
-      "Certificate":true
+      "Certificate":"Yes",
+      "price": "$ 500"
    }
 ]
