@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import Header from './components/Header/Header';
@@ -7,8 +7,8 @@ import Home from './components/Home/Home';
 import Footer from './components/Footer/Footer';
 import About from './components/About/About';
 import Services from './components/Services/Services';
-import Course from './components/Course/Course';
 import NotFound from './components/NotFound/NotFound';
+import Team from './components/Team/Team';
 
 function App() {
   return (
@@ -28,8 +28,8 @@ function App() {
           <Route path='/services'>
             <Services></Services>
           </Route>
-          <Route path='/course'>
-            <Course></Course>
+          <Route path='/team'>
+            <Team></Team>
           </Route>
           <Route path='*'>
             <NotFound></NotFound>
