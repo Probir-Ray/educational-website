@@ -3,7 +3,7 @@ import { Card, Col, ListGroup, ListGroupItem } from 'react-bootstrap';
 
 const Service = (props) => {
     // Destructuring object.
-    const {serviceName, desc, img, duration, certificate, price } = props.service;
+    const {serviceName, desc, img, duration, Certificate, price } = props.service;
     return (
             
         <Col md={3}>
@@ -15,7 +15,7 @@ const Service = (props) => {
                 </Card.Body>
                 <ListGroup className="list-group-flush">
                     <ListGroupItem>Course duration: {duration}</ListGroupItem>
-                    <ListGroupItem>Certificate: {certificate}</ListGroupItem>
+                    <ListGroupItem>Certificate: {Certificate}</ListGroupItem>
                     <ListGroupItem><h4 className='fw-bold'>Price: {price}</h4></ListGroupItem>
                 </ListGroup>
                 
