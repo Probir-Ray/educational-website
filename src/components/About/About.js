@@ -5,7 +5,7 @@ const About = () => {
         <div className='container py-4 my-4'>
             <h2 className='text-center mb-3'>Importance of Foreign Language Learning</h2>
             <p>There are the obvious, everyday advantages to speaking a foreign language, such as impressing your friends, turning around a date that's going badly, and one of the strongest senses of pride and achievement that you can have. It can also open many potential career doors, not only in terms of the range of jobs but also the range of destinations to find a job abroad.</p>
-            <img src="https://i.imgur.com/EDqPF7I.jpg" alt="" />
+            <img className='img-fluid' src="https://i.imgur.com/EDqPF7I.jpg" alt="" />
 
             <div className='py-4 my-4'>
                 <div className="content">

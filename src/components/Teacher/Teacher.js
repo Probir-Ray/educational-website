@@ -4,7 +4,7 @@ import { Card, Col } from 'react-bootstrap';
 const Teacher = (props) => {
     const {name, teachingSubject, courseHour, img} = props.teacher;
     return (
-        <Col md={4}>
+        <Col sm={6} md={6} lg={4}>
             <Card style={{ width: 'auto', marginBottom: '30px' }}>
                 <Card.Img variant="top" src={img} />
                 <Card.Body className='text-center'>

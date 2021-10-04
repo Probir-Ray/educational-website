@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 const Hero = () => {
     return (
         <Row className='py-4'>
-            <Col md={6}>
+            <Col md={12} sm={12} lg = {6} className='mb-4 pb-3'>
                 <h3>Learning Language</h3>
                 <br/>
                 <p>Learning a new language involves listening, speaking, reading, writing, sometimes even a new alphabet and writing format.</p>
@@ -13,7 +13,7 @@ const Hero = () => {
                 <p>Take courses from best instructors and universities. Courses include recorded auto-graded assignments, video lectures, and community discussion forums. When you complete a course, you’ll be eligible to receive a shareable electronic Course Certificate for a small fee.</p>
                 <button className="btn btn-primary"><Link className='text-white text-decoration-none' to = '/about'>Learn More</Link></button>
             </Col>
-            <Col md={6}>
+            <Col md={12} sm={12} lg = {6}>
                 <img className='img-fluid' src="https://images.pexels.com/photos/6207365/pexels-photo-6207365.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260" alt="" />
             </Col>            
         </Row>
