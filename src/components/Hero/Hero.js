@@ -7,6 +7,7 @@ const Hero = () => {
         <Row className='py-4'>
             <Col md={12} sm={12} lg = {6} className='mb-4 pb-3'>
                 <h3>Learning Language</h3>
+                
                 <br/>
                 <p>Learning a new language involves listening, speaking, reading, writing, sometimes even a new alphabet and writing format.</p>
                 <p>Instead, what you need is a balanced study plan: a mix of study activities that target both spoken and written language, and gives attention to all three key principles.</p>
